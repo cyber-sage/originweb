@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <input type="number" id="tet">
+        <button id="kaala">i am angry</button>
+        <p id="man">merrie man</p>
+        <script type="text/javascript">
+            
+        document.getElementById("kaala").onclick=function(){
+            
+             var change= document.getElementById("tet").value;
+           var num= (Math.floor(Math.random()*6));
+            if(change==num)
+                alert("you are champ"+" "+num);
+            else alert("you are wrong and number was"+" "+num);
+            
+        }
+        
+        </script>
+    </body>
+
+</html>
