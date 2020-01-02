@@ -1,0 +1,52 @@
+<html>
+    <script src="./script.js"></script>
+    <title>Welcome to Cognizant</title>
+    <form action="" style="border:solid;padding-left: 5%;">
+        <h1>Personal Details</h1>
+        <table style="width: 500px;" >
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="name" name="name"  required></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    Male<input type="radio" id="gender" name="gender" value="Male" required>
+                    Female<input type="radio" id="gender" name="gender" value="Female" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Home Town</td>
+                <td>
+                    <select name="hometown" id="hometown" required>
+                        <option name="New Delhi" id="">New Delhi</option>
+                        <option name="Mumbai" id="">Mumbai</option>
+                        <option name="Kolkata" id="">Kolkata</option>
+                        <option name="Chennai" id="">Chennai</option>
+                        <option name="Hyderabad" id="">Hyderabad</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea name="address" id="address" cols="50" rows="5"></textarea></td>
+            </tr>
+            <br>
+            <tr>
+                <td>Skills</td>
+                <td>Java<input type="checkbox" value="Java" id="skills" name=skills" >
+                HTML<input type="checkbox" value="HTML" id="skills" name="skills" >
+                Oracle<input type="checkbox" value="Oracle" id="skills" name="skills" ></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="password" id="password"  required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit" onclick="Validate()" >Submit</button></td>
+            </tr>
+        </table>
+    </form>
+
+</html>
