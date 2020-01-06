@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>admin_menu</title>
+	<link type="text/css" rel="stylesheet" href="style/style.css">
+  
+  </head>
+  <body>
+     <div class="headerlayout">
+	   <header>
+	   <span  id="true">truYum</span>
+	   <span id="logo"><img src="images/logo.png" width="30" height="40" id="logo"></span>
+	   <nav id="navi"><span  id="menu"><a href="menu-item-list-customer.html">Menu</a></span>
+	   <span  id="cart"><a href=cart.html">Cart</a></span>
+	   </nav>
+	   </header>
+	 </div>
+	 <form>
+	    <div class="newHope"><h2>Edit Menu Item</h2></div>
+		<div class="newHope">
+		  <label for="">Name</label><br>
+           <input type="text" name="Name" placeholder="Sandwich" min="2" max="65" size="108" required>    
+		</div>
+		<div class="newHope">
+		   
+		      
+			  
+			  
+			  <table>
+			  <col width="200">
+			  <col width="150">
+			  <col width="200">
+			  <col width="150">
+			  <tr>
+			  <td><label for="">Price (Rs.)</label></td>
+			   <td><label for="">Active</label></td>
+			   <td><label for="">Date of Launch</label></td>
+			   <td><label for="">Category</label></td>
+			  </tr>
+			  <tr>
+			    <td><input type="number" name="price" placeholder="97" required></td>
+			    <td><input type="radio" value="Yes" name="inStock"checked>Yes
+			      <input type="radio" value="No" name="inStock">No</td>
+				<td><input type="date" placeholder="27/04/2022" name="dateOfLaunch" required></td>
+				
+				<td><select name="category">
+			  
+			  <option value="Starters">Starters</option>
+			  <option value="Main Course">Main Course</option>
+			  <option value="Dessert">Dessert</option>
+			  <option value="Drinks">Drinks</option>
+			  </select></td>
+			  
+			  </tr>
+			</table>  
+			
+			<div class="newHope1">
+			   <input type="checkbox" name="freeDelivery">Free Delivery<br>
+			   <a href="edit-menu-item.html "><input type="submit" name="submit" value="Save"></a>
+			   
+			
+			</div>
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+		   
+		  
+		
+		</div>
+     </body>
+  </html>	 
